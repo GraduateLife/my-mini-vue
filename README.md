@@ -19,7 +19,7 @@ Project reproduces VUE3 <code>reactivity</code>, <code>runtime-core</code>, <cod
 To make sure original functions are not affected during refactoring, I developed the project in TDD style (by unit tests in Jest).
 
 It is worth mentioning that, the project is just aims to understand how VUE3 works and practice TDD workflow, hence in most of cases, I will only make sure the main 
-process (happy path) are passed, instead of checking edge cases. 
+process tests (happy path) are passed, instead of checking other edge cases. 
 
 ##  Description
 
