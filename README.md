@@ -50,8 +50,14 @@ To create vitual nodes and mount/update corresponding elements, its main process
 
 And reproduced following APIs:
 <pre>
+h()
+emit()
+inject()
+provide()
+getCurrentInstance()
 nextTick()
 </pre>
+and props,slots, part of instance publicProrties 
 
 ### runtime-dom
 
