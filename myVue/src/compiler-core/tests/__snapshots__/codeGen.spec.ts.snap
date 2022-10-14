@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`code generator create code for elements 1`] = `
+"const { createElementNode: _createElementNode } = Vue
+return function render(_ctx, _cache){return _createElementNode('div', null, null)}"
+`;
+
+exports[`code generator create code for multiple types 1`] = `
+"const { toDisplayString: _toDisplayString,createElementNode: _createElementNode } = Vue
+return function render(_ctx, _cache){return _createElementNode('div', null, 'this is ' + _toDisplayString(_ctx.message))}"
+`;
+
+exports[`code generator creates code for interpolations 1`] = `
+"const { toDisplayString: _toDisplayString } = Vue
+return function render(_ctx, _cache){return _toDisplayString(_ctx.message)}"
+`;
+
+exports[`code generator creates code for strings 1`] = `"return function render(_ctx, _cache){return 'good morning'}"`;
+
+
+
+exports[`code generator tiny up 1`] = `
+"const { toDisplayString: _toDisplayString,createElementNode: _createElementNode } = Vue
+return function render(_ctx, _cache){return _createElementNode('div', null, 'this is ' + _toDisplayString(_ctx.message))}"
+`;
