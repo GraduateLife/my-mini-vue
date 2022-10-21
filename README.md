@@ -4,9 +4,9 @@ A project refers to VUE3 source code and another famous github project:  https:/
 
 ## Usage
 
-<p>Initialize Project ↓</p>
+<p>Install project  dependencies ↓</p>
 <code>
-    yarn init -y          
+    yarn install        
 </code>
 <p></p>
 To see the examples in the project, please use live server extension in vscode (or similar thing) to avoid CORS policy
